@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="ChromeTestCases(failed)">
+    <parameter name="loginEmail" value="lucioaa@outlook.com"/>
+    <parameter name="baseUrl" value="https://github.com/login"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="loginPassword" value="knight8497"/>
+    <classes>
+      <class name="tests.TestLogin">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeThisClass"/>
+          <include name="verifyValidLogin2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.TestLogin -->
+    </classes>
+  </test> <!-- ChromeTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

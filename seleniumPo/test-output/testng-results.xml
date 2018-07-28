@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser (chrome) launched]]>
+    </line>
+    <line>
+      <![CDATA[Implicit wait implemented]]>
+    </line>
+    <line>
+      <![CDATA[Cookies deleted]]>
+    </line>
+    <line>
+      <![CDATA[Application opened with baseUrl (https://github.com/login)]]>
+    </line>
+    <line>
+      <![CDATA[Value cleared from login textbox]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in login textbox]]>
+    </line>
+    <line>
+      <![CDATA[Value cleared from password textbox]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in password textbox]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Text captured from user profile link]]>
+    </line>
+    <line>
+      <![CDATA[Text verified successfully, which is equals to: LucioAmorim]]>
+    </line>
+    <line>
+      <![CDATA[Cookies deleted]]>
+    </line>
+    <line>
+      <![CDATA[Application opened with baseUrl (https://github.com/login)]]>
+    </line>
+    <line>
+      <![CDATA[Value cleared from login textbox]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in login textbox]]>
+    </line>
+    <line>
+      <![CDATA[Value cleared from password textbox]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in password textbox]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Text captured from user profile link]]>
+    </line>
+    <line>
+      <![CDATA[Browser and session quit]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-07-28T17:33:49Z" name="Suite" finished-at="2018-07-28T17:34:03Z" duration-ms="14506">
+    <groups>
+    </groups>
+    <test started-at="2018-07-28T17:33:49Z" name="ChromeTestCases" finished-at="2018-07-28T17:34:03Z" duration-ms="14506">
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:33:49Z" name="beforeTest" finished-at="2018-07-28T14:33:52Z" duration-ms="3242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://github.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser (chrome) launched]]>
+            </line>
+            <line>
+              <![CDATA[Implicit wait implemented]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeThisClass()[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:33:52Z" name="beforeThisClass" finished-at="2018-07-28T14:33:52Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeThisClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:33:52Z" name="beforeMethod" finished-at="2018-07-28T14:33:53Z" duration-ms="899" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cookies deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:33:53Z" name="verifyValidLogin" description="Verify login with valid credentials" finished-at="2018-07-28T14:33:58Z" duration-ms="4696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lucioaa@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[knight8497]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened with baseUrl (https://github.com/login)]]>
+            </line>
+            <line>
+              <![CDATA[Value cleared from login textbox]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in login textbox]]>
+            </line>
+            <line>
+              <![CDATA[Value cleared from password textbox]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in password textbox]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Text captured from user profile link]]>
+            </line>
+            <line>
+              <![CDATA[Text verified successfully, which is equals to: LucioAmorim]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:33:58Z" name="beforeMethod" finished-at="2018-07-28T14:34:00Z" duration-ms="2001" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cookies deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyValidLogin2(java.lang.String, java.lang.String)[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:34:00Z" name="verifyValidLogin2" description="Verify login with valid credentials 2" finished-at="2018-07-28T14:34:02Z" duration-ms="2306" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lucioaa@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[knight8497]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Jenkins]> but was:<[LucioAmorim]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[Jenkins]> but was:<[LucioAmorim]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tests.TestLogin.verifyValidLogin2(TestLogin.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened with baseUrl (https://github.com/login)]]>
+            </line>
+            <line>
+              <![CDATA[Value cleared from login textbox]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in login textbox]]>
+            </line>
+            <line>
+              <![CDATA[Value cleared from password textbox]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in password textbox]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Text captured from user profile link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestLogin@2525ff7e]" started-at="2018-07-28T14:34:02Z" name="afterTest" finished-at="2018-07-28T14:34:03Z" duration-ms="1293" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser and session quit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestLogin -->
+    </test> <!-- ChromeTestCases -->
+  </suite> <!-- Suite -->
+</testng-results>
